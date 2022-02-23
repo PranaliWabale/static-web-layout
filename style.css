@@ -1,0 +1,282 @@
+
+   
+ * {
+    box-sizing: border-box;
+    
+  } 
+  /* **********************************Layout 1 start****************************************************************8 */
+  body {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+ 
+
+
+    .Headerlogo{
+    float: left;
+    width: 30%;
+    height: 80px; /* only for demonstration, should be removed */
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(204, 211, 206);
+    /* color: white; */
+}
+.Headerbaner{
+    float: left;
+  padding: 20px;
+  width: 70%;
+  text-align: center;
+  /* background-color: #df6363; */
+  height: 80px;
+  background-color: rgb(220, 238, 121);
+  border: 2px solid black;
+  
+}
+.Headerbar{
+    width: 100%;
+    height: 50px;
+    clear: both;
+    text-align: center;
+
+    border: 2px solid black;
+    padding: 20px;
+    background-color: rgb(170, 180, 147);
+    
+}
+aside{
+    width: 15%;
+    height: 500px; /* only for demonstration, should be removed */
+    float: left;
+    text-align: center;
+   
+    margin-top: 10px;
+    border: 2px solid black;
+    padding: 2px;
+    background-color: rgb(255, 153, 0);
+}
+section{
+    width: 70%;
+    height: 500px; /* only for demonstration, should be removed */
+    float: left;
+   
+     margin-top: 10px; 
+    border: 2px solid black;
+    padding: 20px;
+    background-color: rgb(177, 100, 100);
+}
+.Centerblock{
+    
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(219, 182, 59);
+    /* float: left; */
+}
+.Centerleft{
+    width: 50%;
+    height: 250px;
+    border: 2px solid black;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(197, 120, 48);
+}
+.Centerright{
+    width: 50%;
+    height: 250px;
+    border: 2px solid black;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(207, 243, 135);
+}
+.Module{
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(149, 151, 33);
+}
+article{
+    width: 15%;
+    height: 500px; 
+    float: left;
+
+    margin-top: 10px;
+    padding: 2px;
+    border: 2px solid black;
+    background-color: rgb(181, 243, 9);
+    
+}
+footer{
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    clear: both;
+    float: left;
+    border: 1px solid rgb(19, 18, 18);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+    background-color: rgb(138, 138, 81);
+
+}
+ /**Layout 1 end**/
+ /***Layout 2 start**/
+ .header_1{
+     clear: left;
+    margin:10px 2px 5px 2px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(88, 74, 139);
+}
+nav{
+    margin:2px 2px 5px 2px; 
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(96, 171, 221);
+}
+section1{
+    width:60% ;
+    height:400px;
+    float: left;
+   
+    margin-bottom: 5px;
+}
+.content{
+     
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(23, 107, 163);
+    float: left;
+}
+.article1{
+  
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(81, 157, 167);
+    float: left;
+}
+aside1{
+    
+    width: 40%;
+    height: 400px;
+    padding: 20px;
+text-align: center;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    margin-left: auto;
+ float: left;
+ background-color: rgb(0, 247, 255);
+}
+
+.footer_1{
+    margin:2px 2px 5px 2px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    clear: both;
+    background-color: rgb(40, 173, 140);
+    margin-bottom: 50px;
+}
+@media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+ /***Layout 2 ends***/
+ .header_2{
+     
+    margin:10px 2px 5px 2px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    color: black;
+    background-color: rgb(80, 221, 24);
+}
+.nav_1{
+    margin:2px 2px 5px 2px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    background-color: rgb(79, 121, 40);
+}
+aside2{
+   
+    color: black;
+    width: 20%;
+    height: 400px;
+    padding: 20px;
+    float: left;
+    margin-bottom: 4px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(7, 122, 3);
+}
+section2{
+    
+    width: 60%;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 4px;
+    border: 2px solid black;
+    float: left;
+    color: black;
+    background-color: teal;
+}
+article2{
+   
+    width: 20%;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 4px;
+    float: left;
+    color: black;
+    background-color: rgb(95, 248, 108);
+}
+.footer_2{
+    margin-top: 10px;
+    
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    clear: both;
+    background-color: rgb(0, 252, 126);
+}
+ @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  } 
